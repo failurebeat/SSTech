@@ -1,0 +1,510 @@
+/*Google Fonts Ubuntu and Poppins*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800|Ubuntu:300,400,500,700&display=swap');
+
+/*Global CSS*/
+* {
+	font-family: 'Ubuntu', sans-serif;
+}
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.highlight {
+	color: #6048fe;
+}
+a {
+	text-decoration: none;
+	transition: 0.5s ease-in-out;
+}
+a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*Header Section*/
+header {
+	background: url(../images/banner-bg.png);
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+}
+header .logo {
+	max-width: 60%;
+}
+
+/*Navbar*/
+.navbar .nav-item.active .nav-link {
+	color: #fff !important;
+}
+.navbar .nav-item .nav-link-custom {
+	color: #c7d3e9 !important;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 4px 10px !important;
+	margin-top: 6px;
+	box-sizing: border-box;
+	transition: all 0.5s ease-in-out;
+}
+.navbar .nav-item .nav-link-custom:hover {
+	background: #fff;
+	color: #6048fe !important;
+	border: 1px solid #fff;
+	border-radius: 25px;
+}
+.btn-signup {
+	border: 1px solid #fff;
+	border-radius: 25px;
+}
+.btn-signup:hover {
+	background: #fff;
+	color: #6048fe!important;
+}
+
+/*Banner*/
+.banner h1 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	width: 70%;
+	line-height: 1.5;
+	margin-bottom: 4%;
+	font-size: 30px;
+	margin-top: 10%;
+	font-weight: 600;
+}
+.banner p {
+	color: #fff;
+	margin-bottom: 6%;	 
+}
+.banner .btn {
+	margin: 7px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 8px 25px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+.btn-cta {
+	background: #fff !important;
+	color: #6048fe !important;
+	transition: 0.5s ease-in-out;
+}
+.btn:hover {
+	background: #fff !important;
+	color: #6048fe !important;
+}
+.btn-cta:hover {
+	background: #fff !important;
+	color: #01c6fb !important;
+}
+.banner-image {
+	width: 100%;
+	margin-top: 10%;
+}
+
+/*Service Section*/
+.service p {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.service-item {
+	text-align: center;
+}
+.service-item img {
+    width: 15%;
+    margin-bottom: 20px;
+}
+.service-item h5 {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 600;
+}
+.service-item p {
+    width: 75%;
+    margin-bottom: 5px;
+}
+.service-item a {
+	color: #6048fe;
+	font-weight: 500;
+}
+.service-item .fa-angle-custom {
+	margin-left: 5px;
+}
+
+/*Lead Section*/
+.lead {
+	background: url(../images/banner-lead.png);
+	background-size: cover;
+	background-position: center;
+	min-height: 350px;
+}
+.lead-content h2 {
+	text-align: left;
+}
+.lead-content p {
+	width: 87%;
+	font-size: 16px;
+}
+.btn-lead {
+	background: linear-gradient(to right, #01c6fb, #6048fe);
+	transition: 0.5s ease-in-out;
+	border: none;
+	border-radius: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 10px 20px;
+	margin-top: 10px;
+}
+.btn-lead:hover {
+	background: #01c6fb !important;
+	color: #fff !important;
+}
+
+/*Project Section*/
+.project {
+	background: url(../images/map.png);
+	background-size: cover;
+	background-position: center;
+}
+.project h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #6048fe;
+    font-weight: 600;
+    font-size: 22px;
+}
+.project p {
+    text-align: center;
+}
+.col-hover {
+	background: transparent;
+	padding: 20px;
+	transition: 0.2s ease-in-out;
+}
+.col-hover:hover {
+	background: #f6fbff;
+	padding: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/*Portfolio Section*/
+.btn-group {
+	border: 1px solid #01c6fb;
+	border-radius: 50px;
+	width: 50%;
+}
+.btn-group .btn {
+	border: none;
+	color: #6048fe;
+	transition: 0.5s ease-in-out;
+}
+.btn-group .btn:hover {
+	background: #6048fe !important;
+    color: #fff !important;
+    border-radius: 50px;
+
+}
+.btn-group .btn:focus {
+	box-shadow: none;
+}
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+	border-radius: 50px;
+	box-shadow: none;
+}
+
+/*Portfolio Gallery*/
+.portfolio {
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+}
+.portfolio-content {
+	text-align: center;
+    margin: 40px 0px 85px;
+}
+.portfolio-content h1 {
+	font-size: 40px;
+    color: #2D3950;
+    margin-top: 85px;
+}
+.portfolio-content p {
+	color: #A7A8A8;
+    font-size: 18px;
+    padding-top: 10px;
+}    
+/*Portfolio Gallery*/
+.portfolio-item {
+	margin-bottom: 27px;
+	position: relative;
+}
+.portfolio-hover {
+    position: absolute;
+    width: 92.3%;
+    height: 100%;
+    top: 0px;
+    left: 15px;
+    background: #01c6fb;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+}
+.portfolio-hover ul {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+.portfolio-hover ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0px 11px;
+    cursor: pointer;
+    margin: 0px 2px;
+}
+.portfolio-hover ul li a {
+    color: #fff;
+    font-weight: 700;
+}
+.portfolio-hover:hover {
+	opacity: 0.7;
+}
+.portfolio-highlight {
+	opacity: 0;
+	color: #fff;
+	bottom: 12px;
+	left: 25px;
+}
+.portfolio-hover:hover .portfolio-highlight {
+	opacity: 1;
+	position: absolute;
+}
+
+/*Work Section*/
+.work {
+	background: linear-gradient(to right, #6048feed, #01c6fbf2), url(../images/banner-work.png);
+	background-size: inherit;
+	background-position: left;
+	min-height: 450px;
+	padding-bottom: 50px;
+}
+.work h2 {
+	color: #fff;
+	margin-top: 60px;
+}
+.work p {
+	color: #fff;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+/*Form Group*/
+.form-group {
+	background: #fff;
+	border-radius: 50px;
+	width: 60%;
+	display: inline-block;
+	margin-left: 220px;
+	height: 44px;
+	position: relative;
+}
+.form-control {
+	border-radius: 50px;
+	width: 40%;
+	display: inline;
+	border: none;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.btn-submit {
+	background: linear-gradient(to right, #01c6fb, #6048fe);
+	border: none;
+	border-radius: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 12.4px 24.54px;
+	transition: 0.4s ease-in-out !important;
+	right: 0;
+	top: 0.5px;
+	position: absolute;
+}
+.btn-submit:hover {
+	background: linear-gradient(to right, #6048fe, #01c6fb) !important;
+	color: #fff !important;
+}
+.form-control:focus {
+	box-shadow: none;
+}
+
+/*Our Client Section*/
+.client .card-body {
+	padding-left: 33px;
+    padding-right: 33px;
+}
+.client img {
+	border: 7px solid #3f3f3f;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.client h4 {
+	text-transform: uppercase;
+	color: #01c6fb;
+}
+.client .fa {
+	color: #fff;
+	background: #3f3f3f;
+	padding: 2px 3px;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+.client .fa-star {
+	color: #01c6fb;
+	background: none;
+	font-size: 20px;
+	padding: 4px;
+	margin-bottom: 5px;
+}
+.client .fa-facebook {
+	padding: 2px 6px;
+}
+.client .fa-linkedin {
+	padding: 2px 4px;
+}
+.client p {
+	width: 45%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.card-client {
+	background: url(../images/shape-client.png);
+	background-repeat: no-repeat;
+	box-shadow: 0px 2px 5px #eee;
+}
+.client-details p {
+	width: 80%;
+	margin: 12px auto 35px;
+}
+
+/*Lead Section*/
+.contact p {
+    width: 45%;
+    text-align: center;
+    margin: 0 auto 65px;
+}
+.contact .card {
+    background: #eef9ff;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    padding: 15px;
+}
+.contact .card a {
+    margin: 10px 0px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #3f3f3f;
+}
+.contact-icon {
+	width: 10%;
+}
+
+/*Contact Form*/
+.contact {
+	position: relative;
+}
+.form-control-custom {
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    margin: 20px 20px  0px 0px;
+    background: #fafafa;
+    width: 45%;
+    display: inline-block;
+    padding-bottom: 10px;
+    color: #9c9c9c;
+}
+.form-control-subject {
+	margin-bottom: 22px;
+	width: 100%;display: block;
+	color: #9c9c9c;
+}
+.form-element-custom {
+    width: 100%;
+    height: 170%;
+    background: #fafafa;
+    border: 1px solid #ebebeb;
+    padding: 23px;
+    padding-top: 10px;
+    color: #9c9c9c;
+}
+.btn-send {
+    background: linear-gradient(to right, #01c6fb, #6048fe);
+    transition: 0.5s ease-in-out;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0px 7px;
+    margin-top: 100px;
+    width: 25%;
+    font-size: 14px;
+}
+.btn-send:hover {
+	background: #01c6fb !important;
+    color: #fff !important;
+}
+.contact-image {
+	width: 48%;
+	position: absolute;
+	top: 8%;
+	left: 27%;
+}
+
+/*Footer Section Start*/
+footer {
+	background: linear-gradient(to right, #6048fe, #01c6fb);
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.footer-left p {
+	color: #fff;
+	font-size: 14px;
+	margin-top: 14px;
+}
+.footer-right {
+	text-align: right;
+}
+.footer-fa {
+	background: #fff;
+	border-radius: 50%;
+	box-sizing: border-box;
+	margin-top: 15px;
+}
+.footer-fa:hover {
+	transform: rotate(360deg);
+}
+.facebook-custom {
+	padding: 4px 8px;
+}
+.behance-custom {
+	padding: 4px 4px;
+}
+.linkedin-custom {
+	padding: 4px 6px;
+}
+.pinterest-custom {
+	padding: 4px 7px;
+}
